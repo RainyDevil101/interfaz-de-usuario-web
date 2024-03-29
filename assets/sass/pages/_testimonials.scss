@@ -1,0 +1,16 @@
+.testimonial {
+  text-align: center;
+  
+  & p {
+    color: #A08C74;
+  }
+}
+
+.testimonial--image {
+  width: 5rem;
+  object-fit: cover;
+  height: 5rem;
+  border-radius: 50%;
+  border: .5px solid white;
+}
+

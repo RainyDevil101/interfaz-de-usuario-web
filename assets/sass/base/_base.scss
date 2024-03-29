@@ -1,0 +1,60 @@
+@use './typography';
+
+$white: #ffffff;
+$black: #212529;
+$lightGray: #F8F9FA;
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: typography.$raleway;
+}
+
+
+p {
+  text-wrap: pretty;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: $black;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+label,
+li {
+  color: $white;
+}
+
+.hr__width {
+  width: 90%;
+}
+
+.container-property {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-light {
+  margin-bottom: 0;
+}
+
+.tooltip{
+  font-size:1.4rem;
+}

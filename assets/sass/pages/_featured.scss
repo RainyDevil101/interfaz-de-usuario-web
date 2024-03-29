@@ -1,0 +1,31 @@
+.card-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.card-text {
+  color: #000000;
+  font-size: 1.4rem;
+}
+
+.card--hr {
+  margin-bottom: 0;
+}
+
+.card--separation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f7f7f7;
+}
+
+.card--price {
+  font-size: 1.8rem;
+  font-weight: 600;
+}

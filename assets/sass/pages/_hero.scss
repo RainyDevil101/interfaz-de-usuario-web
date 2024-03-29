@@ -1,0 +1,23 @@
+@use '../base/base';
+
+
+/* Hero */
+
+.bg-section {
+  background-color: base.$black;
+}
+
+.carousel--image {
+  border-radius: 2rem;
+  height: 50rem;
+  object-fit: cover;
+}
+
+@media (max-width: 1080px) {
+  .carousel--image {
+    height: 30rem;
+  }
+}
+
+// .carousel__item {
+// }

@@ -1,0 +1,23 @@
+.contact--item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  & p {
+    margin-left: 2rem;
+  }
+
+}
+
+
+.data-container {
+  margin-top: 6rem;
+}
+
+
+@media (max-width: 1080px) {
+  .data-container {
+    margin-top: 0;
+  }
+}
